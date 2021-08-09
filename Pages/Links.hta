@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<title>Util</title>
+<HTA:APPLICATION ID="Home"
+	ApplicationName="Complemento"
+	SHOWINTASKBAR="no"
+	ID="MsgBox_Copy"
+	MaximizeButton="no"
+	MinimizeButton="no"
+	Icon=Util.ico
+	scroll="no"
+	ContextMenu="no"
+	SingleInstance="no"
+	Version="1.0"
+	CAPTION="yes"
+	BORDER="thin"
+    BORDERSTYLE="none"
+	INNERBORDER="no"
+	NAVIGABLE="yes"
+	
+	
+ 
+/>
+
+
+
+
+<head>
+<script language="vbscript" src="..\Scripts\Script.vbs"></script>
+<script language="javascript" src="..\Scripts\Script.js"></script>
+<script language="vbscript" src="..\Scripts\Func.vbs"></script>
+<link rel="stylesheet" type="text/css" href="..\Css\theme.css">
+
+
+
+
+</head>
+
+
+<header>
+<div>
+
+<ul>
+
+<li id="Main_tab">
+<a href = "main.hta">Inicio</a>
+</li>
+
+<li id="Apps_tab">
+<a href=".\App_list.hta">Apps</a>
+</li>
+
+<li id="Links_tab">
+<a href = "Links.hta">Links</a>
+</li>
+
+<li id="Mais_tab">
+<a href = "Mais.hta" >Mais</a>
+</li>
+
+<li id="Sair_tab">
+<a href = "" onclick="BtnSair()" >Sair</a>
+</li>
+
+</ul>
+
+
+    <h1 id="h_top_links">Links</h1>
+
+
+
+</div>
+
+
+</header>
+
+
+
+<body>
+
+<div id="C_tema">
+    <button class="button" onclick="BtnCentreon()"><img src="..\Src\centreonlogo.png" alt="Centreon" width="50" height="50"><br>Centreon</button>
+	<button class="button" onclick="BtnOcs()"><img src="..\Src\OCS.png" alt="OCS" width="50" height="50"><br>Ocs</button>
+	
+	<button class="button" onclick="BtnNeoservice()"><img src="..\Src\Topdesk.png" alt="Topdesk" width="50" height="50"><br>NeoService</button>
+	<button class="button" onclick="BtnInside()"><img src="..\Src\Inside.png" alt="inside!@" width="50" height="50"><br>inside!@</button>
+	
+	<button class="button" onclick="BtnNagios()"><img src="..\Src\Nagios.png" alt="Nagios" width="50" height="50"><br>Nagios</button>
+	<button class="button" onclick="BtnGep()"><img src="..\Src\Gep.png" alt="Gep" width="50" height="50"><br>Gep</button>
+	
+	<button class="button" onclick="BtnCortina()"><img src="..\Src\Cortina.png" alt="Cortina" width="50" height="50"><br>Cortina</button>
+	<button class="button" onclick="BtnIntranet()"><img src="..\Src\Intranet.png" alt="Intranet" width="50" height="50"><br>Intranet</button>
+
+
+
+</div>
+
+</body>
+
+<footer>
+
+
+<button  class="button2" onclick="BtnMin()"><img src="" alt="MinimizeButton" width="30" height="10"><br>&#8682</button>
+
+
+</footer>
+</html>

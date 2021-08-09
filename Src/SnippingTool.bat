@@ -1,0 +1,3 @@
+call SnippingTool.exe
+
+exit

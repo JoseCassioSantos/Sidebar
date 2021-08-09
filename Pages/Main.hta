@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<title>Util</title>
+<HTA:APPLICATION ID="Home"
+	ApplicationName="Complemento"
+	SHOWINTASKBAR="no"
+	ID="MsgBox_Copy"
+	MaximizeButton="no"
+	MinimizeButton="no"
+	Icon=Util.ico
+	scroll="no"
+	ContextMenu="no"
+	SingleInstance="no"
+	Version="1.0"
+	CAPTION="yes"
+	BORDER="thin"
+    BORDERSTYLE="none"
+	INNERBORDER="no"
+	NAVIGABLE="yes"
+	
+	
+ 
+/>
+
+
+
+
+<head>
+
+<script language="javascript" src="..\Scripts\Script.js"></script>
+<script language="vbscript" src="..\Scripts\Func.vbs"></script>
+<script language="vbscript" src="..\Scripts\Script.vbs"></script>
+<link rel="stylesheet" type="text/css" href="..\Css\theme.css">
+
+
+
+
+</head>
+
+<div>
+
+<header>
+
+<ul>
+
+
+<li id="Main_tab">
+<a href = "main.hta">Inicio</a>
+</li>
+
+<li id="Apps_tab">
+<a href=".\App_list.hta">Apps</a>
+</li>
+
+<li id="Links_tab">
+<a href = "Links.hta">Links</a>
+</li>
+
+<li id="Mais_tab">
+<a href = "Mais.hta" >Mais</a>
+</li>
+
+<li id="Sair_tab">
+<a href = "" onclick="BtnSair()" >Sair</a>
+</li>
+
+
+
+</ul>
+
+    <h1 id="h_top_main">Atalhos</h1>
+
+
+
+</div>
+
+</header>
+
+<body >
+
+
+<div id="b_tema">
+<button class="button" onclick="BtnStart()"><img src="..\Src\task.png" alt="Gerenciador de tarefa" width="50" height="50"><br>Taskmgr</button>
+<button class="button" onclick="Btncontrol()"><img src="..\Src\Control.png" alt="Painel de Control" width="50" height="50"><br>Control</button>
+<button class="button" onclick="Btnabrir()"><img src="..\Src\Pasta.png" alt="Explorer" width="50" height="50"><br>Explorer</button>
+<button class="button" onclick="BtnCalc()"><img src="..\Src\Calc.png" alt="Calculadora" width="50" height="50"><br>Calc</button>
+<button class="button" onclick="BtnInfo()"><img src="..\Src\Msinfo.png" alt="Informacao do sistema" width="50" height="50"><br>Msifo</button>
+<button class="button" onclick="BtnNotPad()"><img src="..\Src\Notepad.png" alt="Notepad" width="50" height="50"><br>Notepad</button>
+<button class="button" onclick="BtnEnd()"><img src="..\Src\Cmd.png" alt="CMD" width="50" height="50"><br>CMD</button>
+<button class="button" onclick="BtnMstsc()"><img src="..\Src\Mstsc.png" alt="Mstsc" width="50" height="50"><br>Mstsc</button>
+<button class="button" onclick="BtnPaint()"><img src="..\Src\paint.png" alt="Paint" width="50" height="50"><br>Paint</button>
+	
+	
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+
+<footer>
+
+
+<button  class="button2" onclick="BtnMin()"><img src="" alt="MinimizeButton" width="30" height="10"><br>&#8682</button>
+
+
+</footer>
+</html>

@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<title>Util</title>
+<HTA:APPLICATION ID="Home"
+	ApplicationName="Complemento"
+	SHOWINTASKBAR="no"
+	ID="MsgBox_Copy"
+	MaximizeButton="no"
+	MinimizeButton="no"
+	Icon=Util.ico
+	scroll="no"
+	ContextMenu="no"
+	SingleInstance="no"
+	Version="1.0"
+	CAPTION="yes"
+	BORDER="thin"
+    BORDERSTYLE="none"
+	INNERBORDER="no"
+	NAVIGABLE="yes"
+	
+	
+ 
+/>
+
+
+
+
+<head>
+
+
+<script language="vbscript" src="..\Scripts\Script.vbs"></script>
+<link rel="stylesheet" type="text/css" href="..\Css\theme.css">
+
+
+</head>
+
+
+
+<header>
+
+<ul>
+
+
+<li id="Main_tab">
+<a href = "main.hta">Inicio</a>
+</li>
+
+<li id="Apps_tab">
+<a href=".\App_list.hta">Apps</a>
+</li>
+
+<li id="Links_tab">
+<a href = "Links.hta">Links</a>
+</li>
+
+<li id="Mais_tab">
+<a href = "Mais.hta">Mais</a>
+</li>
+
+<li id="Sair_tab">
+<a href = "" onclick="BtnSair()" >Sair</a>
+</li>
+
+
+</ul>
+
+    <h1 id="h_top_Mais">Mais</h1>
+
+
+
+</div>
+
+</header>
+
+<body>
+
+
+<div id="M_tema">
+
+	<button class="button"  onclick="BtnVer"()>Versao do Windows</button>
+	<br><button class="button"  onclick="BtnMoni"()>Monitoramento<br>de pastas<br>Compartilhadas</button>
+	<br><button class="button"  onclick="BtnPadrao"()>Aplicativos Padrao</button>
+	<br><button class="button" onclick="BtnSobre"()>Sobre</button>
+	<br><button class="button" onclick="Btnuser"()>Network</button>
+	<br><button class="button" onclick="BtnIP"()>IPconfig</button>
+	<br><button class="button" onclick="BtnBat1"()>Server Public</button>
+	<br><button class="button" onclick="BtnBat2"()>Server Scan</button>
+	<br><button class="button" onclick="BtnBat3"()>Server Installer</button>
+	
+
+
+ 
+</div>
+</body>
+
+
+<footer>
+
+
+<button  class="button2" onclick="BtnMin()"><img src="" alt="MinimizeButton" width="30" height="10"><br>&#8682</button>
+
+</footer>
+</html>
